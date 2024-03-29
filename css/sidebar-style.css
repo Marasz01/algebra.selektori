@@ -1,6 +1,11 @@
-@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3./css/font-awesome.css);
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 .menu-wrapper {
     display: block;
     min-height: 100%;
+}
+
+.fa {
+    font-size: 50px;
+    cursor: pointer;
 }

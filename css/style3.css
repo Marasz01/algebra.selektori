@@ -119,8 +119,9 @@ input[data-function*="swipe"]:checked~label[data-function*="swipe"] {
     transition: transform .3s;
     z-index: -1;
 }
-.sidebar{
-    transform: translate3d(-260px, 0px ,0px);
+
+.sidebar {
+    transform: translate3d(-260px, 0px, 0px);
     position: absolute;
     width: 260px;
     background: #2652cc;
@@ -129,11 +130,13 @@ input[data-function*="swipe"]:checked~label[data-function*="swipe"] {
     height: 100%;
     transition: all .3s;
 }
-input[data-function*="swipe"]{
+
+input[data-function*="swipe"] {
     position: relative;
     opacity: 0;
 }
-label[data-function*="swipe"]{
+
+label[data-function*="swipe"] {
     position: relative;
     top: 40px;
     left: 10px;
@@ -148,10 +151,12 @@ label[data-function*="swipe"]{
     transform: translate3d(0, 0, 0, 0);
     transition: transform .3s;
 }
-input[data-function*="swipe"]:checked~label[data-function*="swipe"]{
+
+input[data-function*="swipe"]:checked~label[data-function*="swipe"] {
     transform: translate3d(260px, 0, 0);
 }
-.content1{
+
+.content1 {
     transform: translate3d(0, 0, 0);
     transition: trnasform .3s;
     z-index: -1;
@@ -168,7 +173,8 @@ input[data-function*="swipe"]:checked~.sidebar {
 input[data-function*="swipe"]:checked~.sidebar .tabs-container {
     width: 100%;
 }
-.tab-container{
+
+.tab-container {
     margin-left: 60px;
 }
 

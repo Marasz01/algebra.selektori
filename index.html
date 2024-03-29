@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zadatak</title>
+    <title>Mini projekt</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/style3.css">
     <link rel="stylesheet" href="./css/sidebar-style.css">
+    <link rel="stylesheet" href="./script.js">
+    <script src="./script.js"></script>
   </head>
   <body>
     <header class="Header">
-        <div class="header-line">
-          <h1 class="full-width-header">Moja stranica sa vertikalnim tabovima</h1>
-        </div>
-      </header>
-      <div class="menu-wrapper">
-        <input type="checkbox" data-function="swipe" id="swipe">
-        <label for="swipe" data-function="swipe">&#xf0c9;</label>
-  
+      <div class="header-line">
+        <h1 class="full-width-header">Moj mini projekt</h1>
+      </div>
+    </header>
+    <div class="menu-wrapper">
+      <input type="checkbox" data-function="swipe" id="swipe">
+      <label for="swipe" data-function="swipe"><i id="toggleIcon"
+          class="fa">&#xf101;</i></label>
+
       <div class="sidebar">
         <section class="tabs-container">
           <label for="tab1">Priroda</label>
@@ -27,107 +30,264 @@
           <label for="tab5">Ceste</label>
           <label for="tab6">Šume</label>
           <label for="tab7">Fancy Cards</label>
+          <label for="tab8">Kontakt</label>
         </section>
-    </div>
+      </div>
 
-        <div class="content1">
-        <input type="radio" name="tab" id="tab1" checked />
+      <div class="content1">
+        <input type="radio" name="tab" id="tab1" />
         <section class="tab-container">
-          <h2>Tab heading</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facere eligendi quas dolore adipisci dolorum deserunt fugit ducimus. Accusamus expedita, necessitatibus possimus voluptas maiores iusto quisquam atque debitis optio error.</p>
+          <h2>Priroda</h2>
+          <p>
+            Priroda je, u najširem smislu, ekvivalent za prirodni, fizički ili
+            materijalni svijet ili svemir. Priroda označava fenomene fizičkog
+            svijeta, ali i život uopće. Njezin raspon seže od subatomskog do
+            kozmičkog.
+            Latinska riječ za prirodu ili narav jest natura, tj.
+            "esencijalne kvalitete, urođena dispozicija", a u drevna je vremena
+            doslovce značila "rođenje". Natura je bila latinski prijevod grčke
+            riječi physis (φύσις), koja se izvorno povezivala s intrinzičnim
+            karakteristikama koje biljke, životinje i ostale osobine svijeta
+            razvijaju u skladu sa sobom.
+            Koncept prirode u cjelini, fizički svemir, jedan je od nekoliko
+            proširenja izvorne ideje; predsokratski filozofi počeli su
+            primjenjivati riječ φύσις u određenom jezgrovitom značenju i otada
+            je ona počela stjecati svoje značenje. Ova je uporaba bila potvrđena
+            dolaskom moderne znanstvene metode tijekom posljednjih nekoliko
+            stoljeća.
+          </p>
+
+          <img src="./img/priroda.jpg" width="250" height="200">
         </section>
-  
+
         <input type="radio" name="tab" id="tab2" />
         <section class="tab-container">
-            <h2>Tab heading</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, porro. Accusantium, alias amet explicabo harum, velit aperiam perferendis provident magni corporis nemo, sit dicta vel! Provident cum impedit quod consequatur.</p>
-        </section>
+          <h2>Cvijeće</h2>
+          Cvijet (lat. flos), preobraženi je dio izdanka, koji nosi rasplodne
+          organe biljaka i ima organe za primamljivanje kukaca, radi
+          oprašivanja.
 
-        <input type="radio" name="tab" id="tab3" />
-        <section class="tab-container">
-          <h2>Tab heading</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, fugiat neque! Suscipit quo officiis quae obcaecati nulla error sapiente labore totam adipisci laudantium est voluptate, blanditiis aut maxime excepturi architecto..</p>
-        </section>
-  
-        <input type="radio" name="tab" id="tab4" />
-        <section class="tab-container">
-            <h2>Tab heading</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quidem. Inventore quis quos odio, officiis repudiandae fugit omnis velit, tempore blanditiis at ullam commodi repellat, libero illo iure adipisci sapiente?</p>
-        </section>
+          Sastavni dijelovi cvijeta:
+          <ul>
+            <li>Cvjetište - (lat. receptaculum), nosi na sebi ostale dijelove
+              cvijeta, može biti čunjasto prošireno, pločasto prošireno ili
+              vrčasto udubljeno</li>
+            <li>Ocvijeće - (lat. perianthium), sastoji se od čaške s lapovima i
+              vjenčića s laticama</li>
+            <li></li>Prašnici - (lat. andreceum), preobraženi su mikrosporofili,
+            sastoje se od prašničke niti (filamenta), koji na svom vrhu nosi
+            dvije antere ili polenovnice, antere su na filament pričvršćene
+            pomoću veze ili konektiva</li>
+          <li>Tučak - (lat. gyneceum), može biti samo jedan ili ih ima više,
+            sastavni dijelovi su: plodnica, vrat i njuška tučka</li>
 
-        <input type="radio" name="tab" id="tab5" />
-        <section class="tab-container">
-          <h2>Tab heading</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </section>
-  
-        <input type="radio" name="tab" id="tab6" />
-        <section class="tab-container">
-            <h2>Tab heading</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto debitis repellendus tempore quo, accusantium aperiam aliquid magni odio est, natus molestiae neque unde, perspiciatis eum. Totam, placeat. Impedit, commodi nemo!</p>
-        </section>
-  
-        <input type="radio" name="tab" id="tab7" />
-        <section class="tab-container">
-          <p>Fancy Cards</p>
-        
+          <li>Prašnici i tučak tulipana</li>
+          <li>Lapovi</li>
+          <li>Latice</li>
 
-    <div class="container">
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src="./img/3159310.png" width="100" height="100" />
-            <h3>Design</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-              iure culpa quas explicabo neque 
-            </p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-      </div>
-    
-        <div class="card">
-          <div class="face face1">
-            <div class="content">
-              <img src="./img/coding_code_icon_154423.png" width="100" height="100" />
-              <h3>Code</h3>
+        </ul>
+
+        <img src="./img/cvijeće.peg.jpeg" width="250" height="200">
+      </section>
+
+      <input type="radio" name="tab" id="tab3" />
+      <section class="tab-container">
+        <h2>Planine</h2>
+        <p>
+          Planine nastaju i oblikuju se tektonskim procesima koje dijelimo na
+          endogene ili unutrašnje (sizmička i vulkanska aktivnost) i egzogene
+          ili vanjske (erozija, denudacija, korazija).
+
+          Sedam glavnih dijelova, ili ploča, koji tvore Zemljinu koru, guraju se
+          preko Zemljine kugle brzinom rasta nokta, ali silom koju ljudski um ne
+          može pojmiti. Svaka od njih predstavlja kontinent ili ocean. Budući da
+          Zemljine ploče neprekidno plove planetom stalno udaraju jedna o drugu.
+          Upravo u tim sudarima nastaju veliki planinski lanci.
+        </p>
+
+        <img src="./img/planine.jpg" width="250" height="200">
+      </section>
+
+      <input type="radio" name="tab" id="tab4" />
+      <section class="tab-container">
+        <h2>Zgrade</h2>
+        <p>
+          Zgrada je građevina koja se sastoji od vanjskih zidova i krovne
+          konstrukcije, s jednom ili više zatvorenih prostorija kojima je
+          omogućen pristup. Može služiti za zaštitu ljudi, životinja ili
+          imovine.
+
+          Zgrade mogu biti različitih vrsta i namjena - od složenih kompleksa
+          kao što su bolnice, dvorane, kuće ili stambene zgrade. U zgradi se
+          može regulirati temperatura, svjetlo, dotok zraka ili putevi kretanja
+          ljudi.
+
+          Oblikovanje zgrada je staro kao samo čovječanstvo.
+        </p>
+
+        <img src="./img/zgrade.jpeg" width="250" height="200">
+      </section>
+
+      <input type="radio" name="tab" id="tab5" />
+      <section class="tab-container">
+        <h2>Ceste</h2>
+        <p>
+          Cesta je svaka javna prometnica, ulice u naselju i nerazvrstane ceste
+          na kojima se obavlja promet.
+
+          U Hrvatskoj razlikujemo sljedeće vrste cesta:
+          <ul>
+            <li>javna cesta</li>
+            <li>autocesta</li>
+            <li>brza cesta</li>
+            <li>cesta namijenjena isključivo za promet motornih vozila</li>
+            <li>državna cesta</li>
+            <li>županijska cesta</li>
+            <li>lokalna cesta</li>
+            <li>nerazvrstana cesta</li>
+            <li>zemljana cesta</li>
+          </ul>
+          Pojmovi koji se vezuju uz cestu
+          <ul>
+            <li>kolnik</li>
+            <li>prometna traka</li>
+            <li>biciklistička staza</li>
+            <li>nogostup</li>
+            <li>pješački prijelaz</li>
+            <li>pješački otok</li>
+            <li>raskrižje</li>
+            <li>tramvajsko ili autobusno stajalište - dio površine ceste
+              namijenjen zaustavljanju tramvaja, odnosno autobusa radi ulaska i
+              izlaska putnika i koji je obilježen prometnim znakom.</li>
+            <li>ŽCP - željezničko - cestovni prijelaz</li>
+          </ul>
+          Riječ cesta sadrži glas jat, pa je po starijem hrvatskom pravopisu
+          oblika cěsta. To se se vidi u drugačijem odrazu jata u hrvatskim
+          narječjima odnosno govorima, pa se tako u ikavskim govorima kaže
+          cista. Najpoznatiji primjer su toponimi <a
+            href="https://hr.wikipedia.org/wiki/Cista_Velika">Cista Velika</a> i
+          <a href="https://hr.wikipedia.org/wiki/Cista_Provo">Cista Provo.</a>
+        </p>
+
+        <img src="./img/ceste.jpeg" width="250" height="200">
+      </section>
+
+      <input type="radio" name="tab" id="tab6" />
+      <section class="tab-container">
+        <h2>Šume</h2>
+        <p>
+          Šuma je životna zajednica drveća, grmlja i šumskih životinja. Smatra
+          se savršenom ekološkom tvornicom, ali i idealnim staništem za brojni
+          živi svijet i blagodat za čovjeka. Šume se razlikuju s obzirom na
+          klimu, vrstu tla i reljef.
+
+          Ljudi su krčili šume da bi napravili prometnice, naselja i sl. Ljeti
+          postoji rizik od pojave šumskog požara, nakon čega se treba obaviti
+          pošumljavanje.
+
+          Koristeći isključivo prirodne sirovine – ugljikov dioksid i vodu, kao
+          izvor energije isključivo sunčevu energiju, u stanju je proizvesti
+          znatne količine biomase (drva, lišća), uz proizvodnju kisika. Šuma
+          zadržava znatne količine prašine iz zraka, povoljno utječe na kruženje
+          vode u prirodi, kao i na atmosferske prilike (vremenske i klimatske),
+          a služi i kao odlično stanište za brojne biljne i životinjske vrste.
+          Ima i socijalno i estetsko značenje za čovjeka.
+
+          Šume u Hrvatskoj, osim onih u nacionalnim parkovima su gospodarske
+          šume i za njih se brine šumarstvo kao značajna gospodarska grana, ali
+          i istoimena primijenjena znanstvena disciplina.
+
+          <a
+            href="https://hr.wikipedia.org/wiki/Me%C4%91unarodni_dan_%C5%A1uma">Međunarodni
+            dan šuma</a> obilježava se svake godine 21. ožujka.
+        </p>
+
+        <img src="./img/sume.jpg" width="250" height="200">
+      </section>
+
+      <input type="radio" name="tab" id="tab7" />
+      <section class="tab-container">
+        <p>Fancy Cards</p>
+
+        <div class="container">
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img src="./img/3159310.png" width="100" height="100" />
+                <h3>Design</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>
+                  Dizajn je primijenjena umjetnost i ova riječ je prvo bila
+                  korištena kao izraz za stvaranje arhitektonskog plana kroz
+                  iterativni proces skica i maketa.
+                </p>
+                <a href="https://hr.wikipedia.org/wiki/Dizajn">Read more</a>
+              </div>
             </div>
           </div>
-          <div class="face face2">
-            <div class="content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-                iure culpa quas explicabo neque 
-              </p>
-              <a href="#">Read more</a>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="face face1">
-            <div class="content">
-              <img src="./img/images.png" width="100" height="100" />
-              <h3>Launch</h3>
-            </div>
-          </div>
-          <div class="face face2">
-            <div class="content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
-                iure culpa quas explicabo neque
-              </p>
-              <a href="#">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-</div>
 
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img src="./img/coding_code_icon_154423.png" width="100"
+                  height="100" />
+                <h3>Code</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>
+                  kodiranje, preznaka, uznakovljivanje (engl. coding), postupak
+                  kojim
+                  se podatci zabilježeni jednim skupom znakova izražavaju nekim
+                  drugim skupom znakova
+                </p>
+                <a href="https://tehnicki.lzmk.hr/clanak/kodiranje">Read
+                  more</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <img src="./img/images.png" width="100" height="100" />
+                <h3>Launch</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content">
+                <p>
+                  With more than 3.2 billion smartphone users, there is no
+                  wonder why the market for mobile applications is flourishing.
+                </p>
+                <a
+                  href="https://binarapps.com/how-to-launch-an-app-8-steps-for-a-successful-launch/">Read
+                  more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <input type="radio" name="tab" id="tab8" checked/>
+      <section class="tab-container">
+        <h2>Kontaktirajte me</h2>
+
+        <p>E-mail: <a href="mailto:ivan.maras.et4@gmail.com"> <img
+              src="./img/mail.png" alt="ivan.maras.et4@gmail.com" width="25"
+              height="25">E-mail</a></p>
+        <p>Telefon: <a href="tel:+385917698815"><img src="./img/phone.png"
+              alt="+385917698815" width="50" height="50">Broj Mobitela</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ivan-maras-82232621a/"
+            target="_blank"><img src="./img/linkedin.png" alt="LinkedIn"
+              width="50" height="50">LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/Marasz01" target="_blank"><img
+              src="./img/git.png" alt="Marasz01" width="50"
+              height="50">Github</a></p>
+
+      </section>
+    </div>
   </body>
 </html>
