@@ -249,3 +249,13 @@ input[data-function*="swipe"]:checked~label[data-function*="swipe"] #toggleIcon 
 .tab-container {
     animation: slideIn 0.5s ease-in-out forwards;
 }
+@media only screen and (max-width: 600px) {
+    .tabs-container {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .tab-container {
+        margin-left: 0;
+    }
+}
