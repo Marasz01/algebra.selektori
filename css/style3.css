@@ -189,3 +189,63 @@ input[data-function*="swipe"]:checked~.sidebar .tabs-container {
         opacity: 1;
     }
 }
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.tab-container {
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+input[data-function*="swipe"]:checked~label[data-function*="swipe"] #toggleIcon {
+    animation: rotateIcon 0.5s forwards;
+}
+
+@keyframes rotateIcon {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+input[data-function*="swipe"]:checked~label[data-function*="swipe"] #toggleIcon {
+    animation: rotateIcon 0.5s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.tab-container {
+    animation: slideIn 0.5s ease-in-out forwards;
+}
