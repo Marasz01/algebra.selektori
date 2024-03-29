@@ -110,6 +110,31 @@ input[name="tab"]:checked+.tab-container {
     animation: slide 0.5s forwards;
 }
 
+input[data-function*="swipe"]:checked~label[data-function*="swipe"] {
+    transform: translate3d(260px, 0, 0);
+}
+
+.content1 {
+    transform: translate3d(0, 0, 0);
+    transition: transform .3s;
+    z-index: -1;
+}
+
+input[data-function*="swipe"]:checked~.content1 {
+    transform: translate3d(245px, 0px, 0px);
+}
+
+input[data-function*="swipe"]:checked~.sidebar {
+    transform: translate3d(0px, 0px, 0px);
+}
+
+input[data-function*="swipe"]:checked~.sidebar .tabs-container {
+    width: 100%;
+}
+.tab-container{
+    margin-left: 60px;
+}
+
 @keyframes slide {
     from {
         left: -100%;

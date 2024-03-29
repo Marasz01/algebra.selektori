@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Zadatak</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" href="./css/sidebar-style.css">
   </head>
   <body>
     <header class="Header">
@@ -13,26 +14,60 @@
           <h1 class="full-width-header">Moja stranica sa vertikalnim tabovima</h1>
         </div>
       </header>
+      <div class="menu-wrapper">
+        <input type="checkbox" data-function="swipe" id="swipe">
+        <label for="swipe" data-function="swipe">&#xf0c9</label>
   
-      <div class="content1">
+      <div class="sidebar">
         <section class="tabs-container">
-          <label for="tab1">Prvi tab</label>
-          <label for="tab2">Drugi tab</label>
-          <label for="tab3">Fancy Cards</label>
+          <label for="tab1">Priroda</label>
+          <label for="tab2">Cvijeće</label>
+          <label for="tab3">Planine</label>
+          <label for="tab4">Zgrade</label>
+          <label for="tab5">Ceste</label>
+          <label for="tab6">Šume</label>
+          <label for="tab7">Fancy Cards</label>
+        </section>
+    </div>
+
+        <div class="content1">
+        <input type="radio" name="tab" id="tab1" checked />
+        <section class="tab-container">
+          <h2>Tab heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facere eligendi quas dolore adipisci dolorum deserunt fugit ducimus. Accusamus expedita, necessitatibus possimus voluptas maiores iusto quisquam atque debitis optio error.</p>
         </section>
   
-        <input type="radio" name="tab" id="tab1" checked />
+        <input type="radio" name="tab" id="tab2" />
+        <section class="tab-container">
+            <h2>Tab heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, porro. Accusantium, alias amet explicabo harum, velit aperiam perferendis provident magni corporis nemo, sit dicta vel! Provident cum impedit quod consequatur.</p>
+        </section>
+
+        <input type="radio" name="tab" id="tab3" />
+        <section class="tab-container">
+          <h2>Tab heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, fugiat neque! Suscipit quo officiis quae obcaecati nulla error sapiente labore totam adipisci laudantium est voluptate, blanditiis aut maxime excepturi architecto..</p>
+        </section>
+  
+        <input type="radio" name="tab" id="tab4" />
+        <section class="tab-container">
+            <h2>Tab heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quidem. Inventore quis quos odio, officiis repudiandae fugit omnis velit, tempore blanditiis at ullam commodi repellat, libero illo iure adipisci sapiente?</p>
+        </section>
+
+        <input type="radio" name="tab" id="tab5" />
         <section class="tab-container">
           <h2>Tab heading</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </section>
   
-        <input type="radio" name="tab" id="tab2" />
+        <input type="radio" name="tab" id="tab6" />
         <section class="tab-container">
-          <p>Tab 2</p>
+            <h2>Tab heading</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto debitis repellendus tempore quo, accusantium aperiam aliquid magni odio est, natus molestiae neque unde, perspiciatis eum. Totam, placeat. Impedit, commodi nemo!</p>
         </section>
   
-        <input type="radio" name="tab" id="tab3" />
+        <input type="radio" name="tab" id="tab7" />
         <section class="tab-container">
           <p>Fancy Cards</p>
         
@@ -73,7 +108,6 @@
             </div>
           </div>
         </div>
-      
         <div class="card">
           <div class="face face1">
             <div class="content">
@@ -93,5 +127,7 @@
         </div>
       </div>
     </section>
+</div>
+
   </body>
 </html>
